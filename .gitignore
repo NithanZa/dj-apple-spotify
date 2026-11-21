@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Never commit rekordbox libraries, backups, or migration state
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.edb
+backups/
+snapshots/
+.rekordbox-migrator/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
